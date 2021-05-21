@@ -1,0 +1,12 @@
+.scrollable {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.scrollable::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.hoverEle:hover{
+    /* color: red !important; */
+    color: rgb(23, 197, 183) !important;
+}
